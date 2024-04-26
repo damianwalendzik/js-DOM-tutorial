@@ -1,0 +1,92 @@
+/* Styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Styles for the container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the main heading */
+#main-heading {
+    color: #333;
+    text-align: center;
+}
+
+/* Styles for the list items */
+.list-items {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Styles for hover effect on list items */
+.list-items:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+}
+/* Styles for the boxes */
+.boxes {
+    display: inline-block; /* Display boxes inline */
+    width: 30%; /* Set width for each box */
+    margin: 0 10px; /* Add some margin between boxes */
+    box-sizing: border-box; /* Include padding and border in the width */
+    background-color: #fff; /* Set background color */
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    transition: all 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+/* Hover effect */
+.boxes:hover {
+    transform: translateY(-3px); /* Move the box slightly upwards on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase box shadow on hover */
+}
+
+/* Optional: Adjust styles for better appearance */
+.boxes h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; /* Set heading color */
+}
+
+.boxes button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+/* Ensure buttons don't stretch the box */
+.boxes button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Hover effect on buttons */
+.boxes button:hover {
+    background-color: #0056b3;
+}
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content.reveal-btn {
+    display: block;
+}
